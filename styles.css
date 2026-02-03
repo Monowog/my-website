@@ -1,0 +1,27 @@
+@font-face{
+    font-family: "Quicksand";
+    src: "./fonts/Quicksand-VariableFont_wght.ttf";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    border: 3px solid darkred;
+}
+
+body {
+    background-color:rgb(43, 43, 73);
+    color:powderblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Quicksand";
+    font-weight: 300;
+    text-shadow: 1px 1px 1px grey;
+}
+
